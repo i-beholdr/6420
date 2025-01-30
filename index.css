@@ -1,0 +1,107 @@
+* {
+  color: #eeeecc;
+  background-color: #111111;
+  font-family: monospace, sans-serif;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 42%;
+  min-height: 100%;
+  margin: 0 auto;
+}
+
+.content {
+  padding: 20px;
+  padding-bottom: 50px;
+}
+
+footer {
+  height: 50px;
+  margin-top: -50px;
+  width: 100%;
+  text-align: center;
+  font-size: smaller;
+}
+
+footer .left {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+footer .middle {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+
+footer .right {
+  display: inline-block;
+  text-align: right;
+  vertical-align: middle;
+}
+
+footer .watcher {
+  width: 4.2em;
+}
+
+.reading-list, .reading-list * {
+  background-color: #222222;
+}
+
+.reading-list {
+  margin: 0 0 1em;
+  padding: 3em;
+  border-radius: 2%;
+}
+
+.reading-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.reading-list li {
+  padding: 1em;
+}
+
+.qcic {
+  font-family: "qcic", monospace, sans-serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 666;
+  text-decoration: none;
+  text-shadow: #ffcc00 1px 0 5px;
+  text-align: center;
+  cursor: help;
+}
+.qcid:hover {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.watcher {
+  max-width: 42%;
+}
+
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+
+@media screen and (max-width: 800px) {
+  main {
+    max-width: 66%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  main {
+    max-width: 87%;
+  }
+}
