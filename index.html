@@ -24,12 +24,15 @@
           <img class="watcher" src="watcher.svg" alt="the eye of the watcher" />
         </p>
 
+        <div id="rand-quote" class="rand-quote"></div>
+
         <div class="reading-list">
           <h2>Start here</h2>
 
           <ul>
             <li><a href="https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-and-the-english-language/" target="_blank">Politics and the English Language</a> - George Orwell (1946)</li>
             <li><a href="https://harpers.org/archive/1941/08/who-goes-nazi/" target="_blank">Who Goes Nazi?</a> - Dorothy Thompson (1941)</li>
+            <li><a href="https://www.youtube.com/watch?v=vGAqYNFQdZ4" target="_blank">Don't Be a Sucker</a> - Department of the Army (1947)</li>
           </ul>
 
           <h2>Further</h2>
@@ -49,8 +52,15 @@
         <img class="watcher" src="watcher.svg" alt="the eye of the watcher" />
       </div>
       <div class="right">
-        updated 29 jan 2025
+        updated 30 jan 2025
       </div>
     </footer>
+
+    <script src="index.js"></script>
+    <script>
+      (function() {
+        getRandomQuote(document.getElementById('rand-quote'))
+      })()
+    </script>
   </body>
 </html>

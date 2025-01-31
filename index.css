@@ -51,13 +51,27 @@ footer .watcher {
   width: 4.2em;
 }
 
+.rand-quote {
+  text-align: center;
+  padding: 1em;
+}
+.rand-quote .quote {
+  font-style: italic;
+  display: inline-block;
+  margin-right: 2em;
+}
+.rand-quote .author {
+  display: inline-block;
+  color: #eeeeee;
+}
+
 .reading-list, .reading-list * {
   background-color: #222222;
 }
 
 .reading-list {
   margin: 0 0 1em;
-  padding: 3em;
+  padding: 1em 3em;
   border-radius: 2%;
 }
 
@@ -67,7 +81,7 @@ footer .watcher {
 }
 
 .reading-list li {
-  padding: 1em;
+  padding: 0.6em;
 }
 
 .qcic {
