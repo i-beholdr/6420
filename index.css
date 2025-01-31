@@ -59,20 +59,25 @@ footer .watcher {
   font-style: italic;
   display: inline-block;
   margin-right: 2em;
+  color: #eeeeee;
 }
 .rand-quote .author {
   display: inline-block;
-  color: #eeeeee;
-}
-
-.reading-list, .reading-list * {
-  background-color: #222222;
+  color: #aaaaaa;
 }
 
 .reading-list {
   margin: 0 0 1em;
   padding: 1em 3em;
   border-radius: 2%;
+}
+
+.reading-list, .reading-list * {
+  background-color: #222222;
+}
+
+.reading-list > h2:not(:first-child) {
+  margin-top: 2em;
 }
 
 .reading-list ul {
@@ -92,11 +97,11 @@ footer .watcher {
   text-decoration: none;
   text-shadow: #ffcc00 1px 0 5px;
   text-align: center;
-  cursor: help;
 }
-.qcid:hover {
+h1.qcic:hover {
   text-decoration: underline;
   font-style: italic;
+  cursor: help;
 }
 
 .watcher {
