@@ -1,0 +1,86 @@
+[
+  {
+    "section": "Start Here",
+    "links": [
+      {
+        "author": "George Orwell",
+        "date": "1946",
+        "title": "Politics and the English Language",
+        "url": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-and-the-english-language/"
+      },
+      {
+        "author": "Dorothy Thompson, Harper's Magazine",
+        "date": "1941",
+        "title": "Who Goes Nazi?",
+        "url": "https://harpers.org/archive/1941/08/who-goes-nazi/"
+      },
+      {
+        "author": "U.S. Department of the Army",
+        "date": "1947",
+        "title": "Don't be a Sucker",
+        "url": "https://www.youtube.com/watch?v=vGAqYNFQdZ4"
+      }
+    ]
+  },
+  {
+    "section": "Further",
+    "links": [
+      {
+        "author": "NYT Opinion",
+        "date": "25 Jan 2025",
+        "title": "The First Signs of Tyranny, From People Who Missed Them",
+        "url": "https://www.youtube.com/watch?v=X_D-yW8v0Jo"
+      },
+      {
+        "author": "Bernie Sanders",
+        "date": "31 Jan 2025",
+        "title": "We Are Living in Unprecedented Times",
+        "url": "https://www.youtube.com/watch?v=mL0crkf5Dzw"
+      },
+      {
+        "author": "Howard Zinn",
+        "date": "1980, 2003",
+        "title": "A People's History of the United States",
+        "url": "https://files.libcom.org/files/A%20People's%20History%20of%20the%20Unite%20-%20Howard%20Zinn.pdf"
+      }
+    ]
+  },
+  {
+    "section": "Here & Now",
+    "links": [
+      {
+        "author": "The God Podcast",
+        "date": "03 Feb 2025",
+        "title": "People Rally Outside USAID Building to Confront Elon Musk",
+        "url": "https://www.thegodpodcast.com/p/people-rally-outside-usaid-building"
+      },
+      {
+        "author": "Democracy Now!",
+        "date": "03 Feb 2025",
+        "title": "Is Elon Musk Staging a Coup? Unelected Billionaire Seizes Control at Treasury Dept. & Other Agencies",
+        "url": "https://www.democracynow.org/2025/2/3/elon_musk_gov"
+      },
+      {
+        "author": "Lee Moran, Huffpost",
+        "date": "03 Feb 2025",
+        "title": "Alexandria Ocasio-Cortez Sounds 'Five Alarm Fire' Over Latest Elon Musk News",
+        "url": "https://www.huffpost.com/entry/alexandria-ocasio-cortez-five-alarm-fire_n_67a09574e4b0bef3e6d5754d"
+      },
+      {
+        "author": "Jason Koebler, 404 Media",
+        "date": "23 Jan 2025",
+        "title": "GitHub Is Showing the Trump Administration Scrubbing Government Web Pages in Real Time",
+        "url": "https://www.404media.co/github-is-showing-the-trump-administration-scrubbing-government-web-pages-in-real-time/"
+      }
+    ]
+  },
+  {
+    "section": "Resources",
+    "links": [
+      {
+        "text": "Indivisible.org",
+        "url": "https://indivisible.org"
+      }
+    ]
+  }
+]

@@ -24,8 +24,6 @@
           <img class="watcher" src="watcher.svg" alt="the eye of the watcher" />
         </p>
 
-        <div id="rand-quote" class="rand-quote"></div>
-
         <div id="reading-list" class="reading-list"></div>
 
       </div>
@@ -46,8 +44,7 @@
     <script src="index.js"></script>
     <script>
       (function() {
-        loadContentLinks(document.getElementById('reading-list'))
-        getRandomQuote(document.getElementById('rand-quote'))
+        loadHereNowLinks(document.getElementById('reading-list'))
       })()
     </script>
   </body>
