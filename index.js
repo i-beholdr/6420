@@ -50,7 +50,7 @@ async function loadContentLinks(elem) {
           hnCounter = 0
           nextSection.links.forEach((nextLink) => {
             hnCounter++
-            if (hnCounter < 4) {
+            if (hnCounter < 6) {
               linkContent += `<dt>${nextLink.author} - ${nextLink.date}</dt>`
               linkContent += `<dd><a target="_blank" href="${nextLink.url}">${nextLink.title}</a></dd>`
             }
