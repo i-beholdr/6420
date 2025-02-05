@@ -23,10 +23,15 @@ main {
 
 footer {
   height: 50px;
-  margin-top: -50px;
-  width: 100%;
+  width: 42%;
+  margin: 0 auto -50px;
+  /*margin-top: -50px;*/
   text-align: center;
   font-size: smaller;
+}
+
+footer .top {
+  width: 100%;
 }
 
 footer .left {
@@ -54,6 +59,7 @@ footer .watcher {
 .rand-quote {
   text-align: center;
   padding: 1em;
+  margin-bottom: 2em;
 }
 .rand-quote .quote {
   font-style: italic;
