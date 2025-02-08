@@ -30,30 +30,17 @@ footer {
   font-size: smaller;
 }
 
-footer .top {
-  width: 100%;
-}
-
-footer .left {
-  display: inline-block;
-  text-align: left;
-  vertical-align: middle;
-}
-
-footer .middle {
-  display: inline-block;
+footer div {
   text-align: center;
   vertical-align: middle;
 }
 
-footer .right {
-  display: inline-block;
-  text-align: right;
-  vertical-align: middle;
+footer div:last-child {
+  padding-bottom: 2em;
 }
 
 footer .watcher {
-  width: 4.2em;
+  width: 2.1em;
 }
 
 .rand-quote {
