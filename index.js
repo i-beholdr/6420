@@ -1,5 +1,5 @@
 
-async function getRandomQuote(elem) {
+async function getRandomQuote() {
   const url = './quotes.json'
   try {
     const response = await fetch(url)
@@ -10,15 +10,12 @@ async function getRandomQuote(elem) {
     const json = await response.json()
     const randPick = getRandPick(json.length)
     const randQuote = json[randPick]
-    elem.innerHTML = 
+
+    quoteContainer = document.getElementById('rand-quote').innerHTML =
       `<div><span class="quote">${randQuote.text}</span><span class="author">-${randQuote.source}</span></div>`
   } catch (error) {
     console.error(error.message)
   }
-}
-
-function getRandPick (max) {
-  return Math.floor(Math.random() * max)
 }
 
 async function loadContentLinks(elem) {
@@ -30,50 +27,41 @@ async function loadContentLinks(elem) {
     }
 
     const json = await response.json()
-    let linkContent = ""
 
     json.forEach((nextSection) => {
-      if (nextSection.section === 'Resources') {
-        linkContent += `<h2>${nextSection.section}</h2>`
-        linkContent += `<ul>`
-
-        nextSection.links.forEach((nextLink) => {
-          linkContent += `<li><a target="_blank" href="${nextLink.url}">${nextLink.text}</a></li>`
-        })
-
-        linkContent += `</ul>`
-      } else {
-        linkContent += `<h2>${nextSection.section}</h2>`
-        linkContent += `<dl>`
-
-        if (nextSection.section == 'Here & Now') {
-          hnCounter = 0
+      switch (nextSection.section) {
+        case 'resources':
+          let resourcesContent = `<h2>Resources</h2>`
+          resourcesContent += `<ul>`
           nextSection.links.forEach((nextLink) => {
-            hnCounter++
-            if (hnCounter < 6) {
-              linkContent += `<dt>${nextLink.author} - ${nextLink.date}</dt>`
-              linkContent += `<dd><a target="_blank" href="${nextLink.url}">${nextLink.title}</a></dd>`
-            }
+            resourcesContent += `<li><a target="_blank" href="${nextLink.url}">${nextLink.text}</a></li>`
           })
-          linkContent += `<dl><dt>&nbsp;</dt><dd><a href="/here-now.html">&raquo; more</a></dd></dl>`
-        } else {
-          nextSection.links.forEach((nextLink) => {
-            linkContent += `<dt>${nextLink.author} - ${nextLink.date}</dt>`
-            linkContent += `<dd><a target="_blank" href="${nextLink.url}">${nextLink.title}</a></dd>`
-          })
-        }
+          resourcesContent += `</ul>`
+          document.getElementById('resources').innerHTML = resourcesContent
+          break
 
-        linkContent += `</dl>`
+        case 'here-now':
+          document.getElementById('here-now').innerHTML =
+            getSectionMarkup('Here &amp; Now', nextSection, 6)
+            + `<dl class="extra"><dt>&nbsp;</dt><dd><a href="/here-now.html">&raquo; more</a></dd></dl>`
+          break
+
+        case 'start-here':
+          document.getElementById('start-here').innerHTML = getSectionMarkup('Start Here', nextSection)
+          break
+
+        case 'further':
+          document.getElementById('further').innerHTML = getSectionMarkup('Further', nextSection)
+          break
       }
     })
 
-    elem.innerHTML = linkContent
   } catch (error) {
     console.error(error.message)
   }
 }
 
-async function loadHereNowLinks(elem) {
+async function loadHereNowLinks() {
   const url = './links.json'
   try {
     const response = await fetch(url)
@@ -85,23 +73,38 @@ async function loadHereNowLinks(elem) {
     let linkContent = ""
 
     json.forEach((nextSection) => {
-      if (nextSection.section === 'Here & Now') {
-        linkContent += `<h2>${nextSection.section}</h2>`
-        linkContent += `<dl>`
-
-        nextSection.links.forEach((nextLink) => {
-          linkContent += `<dt>${nextLink.author} - ${nextLink.date}</dt>`
-          linkContent += `<dd><a target="_blank" href="${nextLink.url}">${nextLink.title}</a></dd>`
-        })
-
-        linkContent += `</dl>`
-        linkContent += `<dl><dt>&nbsp;</dt><dd><a href="/">&laquo; back</a></dd></dl>`
+      if (nextSection.section === 'here-now') {
+        document.getElementById('here-now').innerHTML =
+          getSectionMarkup('Here &amp; Now', nextSection)
+          + `<dl class="extra"><dt>&nbsp;</dt><dd><a href="/">&laquo; back</a></dd></dl>`
       }
     })
-
-    elem.innerHTML = linkContent
   } catch (error) {
     console.error(error.message)
   }
+}
+
+function getSectionMarkup(sectionName, sectionContent, limit=0) {
+  let counter = limit > 0 ? 0 : -1
+
+  let markup = `<h2>${sectionName}</h2>`
+  markup += `<dl>`
+  sectionContent.links.forEach((nextLink) => {
+    if (counter !== -1 ) {
+      counter++
+    }
+
+    if (counter < limit) {
+      markup += `<dt>${nextLink.author} - ${nextLink.date}</dt>`
+      markup += `<dd><a target="_blank" href="${nextLink.url}">${nextLink.title}</a></dd>`
+    }
+  })
+  markup += `</dl>`
+
+  return markup
+}
+
+function getRandPick (max) {
+  return Math.floor(Math.random() * max)
 }
 

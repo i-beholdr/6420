@@ -24,7 +24,9 @@
           <img class="watcher" src="watcher.svg" alt="the eye of the watcher" />
         </p>
 
-        <div id="reading-list" class="reading-list"></div>
+        <div id="reading-list" class="reading-list">
+          <div id="here-now" />
+        </div>
 
       </div>
     </main>
@@ -44,7 +46,7 @@
     <script src="index.js"></script>
     <script>
       (function() {
-        loadHereNowLinks(document.getElementById('reading-list'))
+        loadHereNowLinks()
       })()
     </script>
   </body>

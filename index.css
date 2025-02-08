@@ -75,8 +75,8 @@ footer .watcher {
   border-bottom: 1px dotted #111111;
 }
 
-.reading-list > h2:not(:first-child) {
-  margin-top: 2em;
+.reading-list > div:not(:first-child) {
+  margin-top: 4em;
 }
 
 .reading-list dt {
@@ -86,8 +86,16 @@ footer .watcher {
 }
 
 .reading-list dd {
-  margin: 0 0 1em 0;
+  margin: 0 0 2em 0;
   padding: 0;
+}
+.reading-list dl.extra {
+  margin: 0;
+  padding: 0;
+}
+
+.reading-list dl.extra dt {
+  display: none;
 }
 
 .reading-list ul {

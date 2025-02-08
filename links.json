@@ -1,6 +1,6 @@
 [
   {
-    "section": "Start Here",
+    "section": "start-here",
     "links": [
       {
         "author": "George Orwell",
@@ -23,7 +23,7 @@
     ]
   },
   {
-    "section": "Further",
+    "section": "further",
     "links": [
       {
         "author": "NYT Opinion",
@@ -46,7 +46,7 @@
     ]
   },
   {
-    "section": "Here & Now",
+    "section": "here-now",
     "links": [
       {
         "author": "Jason Koebler, 404 Media",
@@ -123,10 +123,14 @@
     ]
   },
   {
-    "section": "Resources",
+    "section": "resources",
     "links": [
       {
-        "text": "Indivisible.org",
+        "text": "American Civil Liberties Union",
+        "url": "https://www.aclu.org"
+      },
+      {
+        "text": "Indivisible",
         "url": "https://indivisible.org"
       }
     ]
