@@ -11,14 +11,14 @@ async function getRandomQuote() {
     const randPick = getRandPick(json.length)
     const randQuote = json[randPick]
 
-    quoteContainer = document.getElementById('rand-quote').innerHTML =
+    document.getElementById('rand-quote').innerHTML =
       `<div><span class="quote">${randQuote.text}</span><span class="author">-${randQuote.source}</span></div>`
   } catch (error) {
     console.error(error.message)
   }
 }
 
-async function loadContentLinks(elem) {
+async function loadContentLinks() {
   const url = './links.json'
   try {
     const response = await fetch(url)
