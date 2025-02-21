@@ -6,7 +6,7 @@ a currated news feed documenting authoritarian overreach in u.s. politics
 
 ## License
 
-Copyright (c) 2025 i.beholdr <mailto:i.beholdr@proton.me>
+Copyright (c) 2025 i.beholdr
 
 Released under the [MIT License](LICENSE.txt)
 
