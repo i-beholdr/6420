@@ -42,7 +42,7 @@ async function loadContentLinks() {
 
         case 'here-now':
           document.getElementById('here-now').innerHTML =
-            getSectionMarkup('Here &amp; Now', nextSection, 6)
+            getSectionMarkup('Here &amp; Now', nextSection, 11)
             + `<dl class="extra"><dt>&nbsp;</dt><dd><a href="/here-now.html">&raquo; more</a></dd></dl>`
           break
 
