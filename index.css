@@ -33,14 +33,16 @@ footer {
 footer div {
   text-align: center;
   vertical-align: middle;
+  margin-bottom: 0.6em;
 }
 
 footer div:last-child {
   padding-bottom: 2em;
+  border-bottom: 0;
 }
 
 footer .watcher {
-  width: 2.1em;
+  width: 1.6em;
 }
 
 .rand-quote {
@@ -147,6 +149,6 @@ h1.qcic:hover {
 
 @media screen and (max-width: 400px) {
   main {
-    max-width: 87%;
+    max-width: 93%;
   }
 }
