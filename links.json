@@ -1,65 +1,28 @@
 [
   {
-    "section": "start-here",
-    "links": [
-      {
-        "author": "George Orwell",
-        "date": "1946",
-        "title": "Politics and the English Language",
-        "url": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-and-the-english-language/"
-      },
-      {
-        "author": "Dorothy Thompson, Harper's Magazine",
-        "date": "1941",
-        "title": "Who Goes Nazi?",
-        "url": "https://harpers.org/archive/1941/08/who-goes-nazi/"
-      },
-      {
-        "author": "U.S. Department of the Army",
-        "date": "1947",
-        "title": "Don't Be a Sucker",
-        "url": "https://www.youtube.com/watch?v=vGAqYNFQdZ4"
-      }
-    ]
-  },
-  {
-    "section": "further",
-    "links": [
-      {
-        "author": "Jason Stanley, Big Think",
-        "date": "2021",
-        "title": "The 10 Tactics of Fascism",
-        "url": "https://www.youtube.com/watch?v=CpCKkWMbmXU"
-      },
-      {
-        "author": "NYT Opinion",
-        "date": "25 Jan 2025",
-        "title": "The First Signs of Tyranny, From People Who Missed Them",
-        "url": "https://www.youtube.com/watch?v=X_D-yW8v0Jo"
-      },
-      {
-        "author": "Bernie Sanders",
-        "date": "31 Jan 2025",
-        "title": "We Are Living in Unprecedented Times",
-        "url": "https://www.youtube.com/watch?v=mL0crkf5Dzw"
-      },
-      {
-        "author": "Timothy Snyder (re-published by kottke.org)",
-        "date": "2016",
-        "title": "Fighting Authoritarianism: 20 Lessons from the 20th Century",
-        "url": "https://kottke.org/16/11/fighting-authoritarianism-20-lessons-from-the-20th-century"
-      },
-      {
-        "author": "Howard Zinn",
-        "date": "1980, 2003",
-        "title": "A People's History of the United States",
-        "url": "https://files.libcom.org/files/A%20People's%20History%20of%20the%20Unite%20-%20Howard%20Zinn.pdf"
-      }
-    ]
-  },
-  {
     "section": "here-now",
     "links": [
+      {
+        "author": "Tara Copp, Lolita C. Baldor, and Kevin Vineys, Associated Press",
+        "date": "06 Mar 2025",
+        "title": "War heroes and military firsts are among 26,000 images flagged for removal in Pentagon's DEI purge",
+        "url": "https://apnews.com/article/dei-purge-images-pentagon-diversity-women-black-8efcfaec909954f4a24bad0d49c78074",
+        "tags": ""
+      },
+      {
+        "author": "Lisa Friedman, New York Times",
+        "date": "06 Mar 2025",
+        "title": "National Parks Had a Record Year. Trump Officials Appear to Want It Kept Quiet",
+        "url": "https://www.nytimes.com/2025/03/06/climate/national-parks-record-visitors-trump.html",
+        "tags": ""
+      },
+      {
+        "author": "David Gilbert, WIRED",
+        "date": "06 Mar 2025",
+        "title": "Social Security Workers Aren’t Allowed to Read This Story",
+        "url": "https://www.wired.com/story/social-security-workers-arent-allowed-to-read-this-story/",
+        "tags": ""
+      },
       {
         "author": "Sharon Lerner, ProPublica",
         "date": "06 Mar 2025",
@@ -458,6 +421,64 @@
         "title": "GitHub Is Showing the Trump Administration Scrubbing Government Web Pages in Real Time",
         "url": "https://www.404media.co/github-is-showing-the-trump-administration-scrubbing-government-web-pages-in-real-time/",
         "tags": ""
+      }
+    ]
+  },
+  {
+    "section": "start-here",
+    "links": [
+      {
+        "author": "George Orwell",
+        "date": "1946",
+        "title": "Politics and the English Language",
+        "url": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-and-the-english-language/"
+      },
+      {
+        "author": "Dorothy Thompson, Harper's Magazine",
+        "date": "1941",
+        "title": "Who Goes Nazi?",
+        "url": "https://harpers.org/archive/1941/08/who-goes-nazi/"
+      },
+      {
+        "author": "U.S. Department of the Army",
+        "date": "1947",
+        "title": "Don't Be a Sucker",
+        "url": "https://www.youtube.com/watch?v=vGAqYNFQdZ4"
+      }
+    ]
+  },
+  {
+    "section": "further",
+    "links": [
+      {
+        "author": "Jason Stanley, Big Think",
+        "date": "2021",
+        "title": "The 10 Tactics of Fascism",
+        "url": "https://www.youtube.com/watch?v=CpCKkWMbmXU"
+      },
+      {
+        "author": "NYT Opinion",
+        "date": "25 Jan 2025",
+        "title": "The First Signs of Tyranny, From People Who Missed Them",
+        "url": "https://www.youtube.com/watch?v=X_D-yW8v0Jo"
+      },
+      {
+        "author": "Bernie Sanders",
+        "date": "31 Jan 2025",
+        "title": "We Are Living in Unprecedented Times",
+        "url": "https://www.youtube.com/watch?v=mL0crkf5Dzw"
+      },
+      {
+        "author": "Timothy Snyder (re-published by kottke.org)",
+        "date": "2016",
+        "title": "Fighting Authoritarianism: 20 Lessons from the 20th Century",
+        "url": "https://kottke.org/16/11/fighting-authoritarianism-20-lessons-from-the-20th-century"
+      },
+      {
+        "author": "Howard Zinn",
+        "date": "1980, 2003",
+        "title": "A People's History of the United States",
+        "url": "https://files.libcom.org/files/A%20People's%20History%20of%20the%20Unite%20-%20Howard%20Zinn.pdf"
       }
     ]
   },
