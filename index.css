@@ -74,7 +74,7 @@ footer .watcher {
 }
 
 .reading-list h2 {
-  border-bottom: 1px dotted #111111;
+  border-bottom: 1px dotted #000000;
 }
 
 .reading-list > div:not(:first-child) {
